@@ -35,28 +35,34 @@ image.
 
 ### Outputs:
 The program generates the following visual outputs:
--> Gray-level transformations
+
+-> Gray-level transformations:
   - Contrast-stretched image.
   - Gamma-corrected image.
   - Image negative.
--> Spatial filtering comparison
+
+-> Spatial filtering comparison:
   - CLAHE-enhanced input.
   - Mean-filtered image.
   - Gaussian-filtered image.
   - Median-filtered image.
--> Image sharpening
+
+-> Image sharpening:
   - Image before sharpening.
   - Image after unsharp masking.
--> Pseudocolor visualization
+
+-> Pseudocolor visualization:
   - CLAHE-enhanced grayscale image.
   - Pseudocolor image generated using the turbo colormap.
--> Chest X-ray processing overview
+
+-> Chest X-ray processing overview:
   - Original X-ray.
   - Grayscale image.
   - CLAHE-enhanced image.
   - Median-filtered image.
   - Enlarged lower lung-region crop.
--> Intensity histograms
+
+-> Intensity histograms:
   - Histogram before CLAHE.
   - Histogram after CLAHE.
 
